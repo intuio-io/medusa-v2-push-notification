@@ -34,13 +34,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/medusa-push-notification"
+    "url": "https://github.com/intuio-io/medusa-v2-push-notification"
   },
   "keywords": [
     "medusa",
     "medusa-plugin",
+    "medusa-v2-push-notifications",
     "push-notification",
-    "ecommerce"
+    "ecommerce",
+    "intuio"
   ],
   "engines": {
     "node": ">=20"
