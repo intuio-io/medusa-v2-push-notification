@@ -1,6 +1,6 @@
 {
   "name": "@intuio/medusa-push-notification",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Push notification module for Medusa v2",
   "main": "dist/index.js",
   "author": "Intuio",

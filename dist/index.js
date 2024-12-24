@@ -17,10 +17,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PUSH_NOTIFICATION_MODULE = void 0;
 // index.ts
 const utils_1 = require("@medusajs/framework/utils");
-const push_notification_1 = require("./src/services/push-notification");
+const push_notification_1 = require("./services/push-notification");
 exports.PUSH_NOTIFICATION_MODULE = "push-notification";
 exports.default = (0, utils_1.Module)(exports.PUSH_NOTIFICATION_MODULE, {
     service: push_notification_1.PushNotificationService,
 });
-__exportStar(require("./src/services/push-notification"), exports);
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLFdBQVc7QUFDWCxxREFBa0Q7QUFDbEQsd0VBQTBFO0FBQzdELFFBQUEsd0JBQXdCLEdBQUcsbUJBQW1CLENBQUE7QUFHM0Qsa0JBQWUsSUFBQSxjQUFNLEVBQUMsZ0NBQXdCLEVBQUU7SUFDNUMsT0FBTyxFQUFFLDJDQUF1QjtDQUNuQyxDQUFDLENBQUE7QUFFRixtRUFBZ0QifQ==
+__exportStar(require("./services/push-notification"), exports);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxXQUFXO0FBQ1gscURBQWtEO0FBQ2xELG9FQUFzRTtBQUN6RCxRQUFBLHdCQUF3QixHQUFHLG1CQUFtQixDQUFBO0FBRzNELGtCQUFlLElBQUEsY0FBTSxFQUFDLGdDQUF3QixFQUFFO0lBQzVDLE9BQU8sRUFBRSwyQ0FBdUI7Q0FDbkMsQ0FBQyxDQUFBO0FBRUYsK0RBQTRDIn0=
